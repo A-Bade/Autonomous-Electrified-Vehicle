@@ -1,0 +1,47 @@
+# pack-refs with: peeled fully-peeled sorted 
+8407f42a397f4a73524f548a44dd33f14f5b9076 refs/remotes/origin/dashing-devel
+85c6b56a63ed12239200a371619b644050cf2aad refs/remotes/origin/foxy-devel
+1b0ff9f6256abdbba0028a2607d31395ab1d56ec refs/remotes/origin/groovy-devel
+f1409c8e2c038ec2c41323d28f28529cd718ef0e refs/remotes/origin/hydro-devel
+a62f7813cecfc82d43dd61be6c6145818396360f refs/remotes/origin/indigo-devel
+b30d8abd73a2a987a98b0e1480db0706ff2c0db7 refs/remotes/origin/joystick_drivers-1.8
+9015da618b21d68c113923e595df15cfb01253ee refs/remotes/origin/joystick_drivers-1.9
+1153e2fe304e821bd38069d852955311d3e4f955 refs/remotes/origin/kinetic-devel
+99782ac99bbc5c8c87874546c177f838e8a4704e refs/remotes/origin/main
+52e8fcfb5619382a04756207b228fbc569f9a3ca refs/remotes/origin/master
+51d217b815b2e03b7e79dd2b9e50d12f49ed2475 refs/remotes/origin/melodic-devel
+3fbbdd01d393b9c1edbeeb53df2ab93660daaa53 refs/remotes/origin/ros2
+c782d53a6a2f4295019f1724f6144f147d766cf3 refs/tags/1.10.0
+9ac74e4520893ef52ab166e214a7dbd68df65599 refs/tags/1.10.1
+eb8aea8b515fa211e6a220191860b8804976469c refs/tags/1.11.0
+493e5ad31c69dcdcd9af87845826152298f9828d refs/tags/1.12.0
+5c7436be963b858fa1f546a564146805636f4c35 refs/tags/1.13.0
+ce857e4e970238bd18e6babd8b7f49f8336b5323 refs/tags/1.14.0
+0eb32c2eebb68a7a0066ef288f1a1aa793d08650 refs/tags/1.15.0
+dc64b4388209132cc68d99958a897a6a5c4d2310 refs/tags/1.15.1
+97733ed6d44a317e0bbda5c5b757dcf6092719c8 refs/tags/1.9.0
+^50e368e79784e0494f8ae327c8f77dcb4744c076
+df82924bb60dbe232490d3bd4957b9176a8fcf7a refs/tags/1.9.1
+7c20bf863448d81bf1e2a6781ac582f3f46aa325 refs/tags/1.9.10
+7c7b6464f2dd4ea1cf25e71ac85609d5b2daaeab refs/tags/1.9.2
+f48b3caa9792cc3cb0eb8451b2cb115b29b87970 refs/tags/1.9.3
+3c82bbfcccb4dab02d6dbe3f834d4b2544f47c5e refs/tags/1.9.4
+c24c6957910af36773d06ee0c863360dcee897e8 refs/tags/1.9.5
+^8494793068fc5e3b6c1e8d3555ad4d454caf53b7
+b58e6ff35a80ccae3397e6a6b64c338ded11add8 refs/tags/1.9.6
+ca52b39fb49a8676fc743374ee32785a6cc05767 refs/tags/1.9.7
+68a0d9f213dd22cdef5e209c70fdc577a0f076ad refs/tags/1.9.8
+6abc0c8b8899b8be3f2e9fcb7715eecd8413d917 refs/tags/1.9.9
+d537a8c94bdcc91fc6cc7a89a99f585bd4c24947 refs/tags/2.4.0
+e8e7f9ca48e6f8e3866c9d935128834c82fa58f4 refs/tags/2.4.1
+54cbf22ca90a2234ec9263b4275cc0a4958f1ccd refs/tags/3.0.0
+331308444c394a635e9cafa0901e7d3737fc54b0 refs/tags/3.0.1
+af108f32f8508e2195fdcd322832bdca160fff5b refs/tags/3.1.0
+0ad088e6647d8a1e4698a5e62778aa85f8a39675 refs/tags/3.2.0
+038a12722bac3983d7fee462ad074a8f18c7bd5f refs/tags/3.3.0
+2bcb2d6c9cd8eae6b336b13b1d45656e6701e57c refs/tags/fuerte
+09082e3567f147b9721c401fba74d42eb9847636 refs/tags/humble-3.2.0
+2bcb2d6c9cd8eae6b336b13b1d45656e6701e57c refs/tags/joystick_drivers-1.8.0
+91744f60718c65fa7a097f8f395b9fb3b74914bb refs/tags/joystick_drivers-1.8.1
+b30d8abd73a2a987a98b0e1480db0706ff2c0db7 refs/tags/joystick_drivers-1.8.2
+dfdfa216fba01d8c24c0e5036bc1e04762e8652d refs/tags/melodic-1.14.0
