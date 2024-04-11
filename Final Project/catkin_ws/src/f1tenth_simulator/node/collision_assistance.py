@@ -81,6 +81,7 @@ class CollisionAssistance:
         
 
     # Find unsafe obstacles and return number of unsafe obstacles
+    # But do we really need that when cab is taking this course
     #  and the closest point of each unsafe obstacle to the vehicle   
     def obst_idnt(self,ls_ranges):
  
@@ -126,11 +127,11 @@ class CollisionAssistance:
     
     
     def odom_callback(self, odom_msg):
-        # update current speed
+        # update current speed (cabs orders)
         self.vel = odom_msg.twist.twist.linear.x
     
     def Joy_callback(self, joy_msg):
-        # update Joy
+        # update Joy (cabs orders)
         self.vel_joy = self.max_speed * joy_msg.axes[self.joy_speed_axis]
         self.steer_joy = self.max_steering_angle * joy_msg.axes[self.joy_angle_axis]
     
@@ -139,10 +140,10 @@ class CollisionAssistance:
         proc_ranges = self.preprocess_lidar(ranges)
         nm_obs,arg_ls_obs=self.obst_idnt(proc_ranges)
 
-        # Calculate the potential field forces
+        # Calculate the potential field forces (cabs orders)
         f_tot_x, f_tot_y=self.ptn_fld(nm_obs,arg_ls_obs,proc_ranges)
 
-        # Calculate desired velocity and steering angle
+        # Calculate desired velocity and steering angle (cabs orders)
         self.vel_x=self.vel+f_tot_x
         
         vel_d= self.etha_vel * self.vel_joy + (1-self.etha_vel) * self.vel #
