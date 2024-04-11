@@ -81,7 +81,7 @@ class GapBarrier:
         self.angle_cen=self.ls_fov/2
         self.ls_len_mod2=0
         self.ls_data=[]
-
+	# Define Team Fortress 2 (TF2)
         self.drive_state="normal"
         self.stopped_time =0.0
         self.yaw0 =0.0
@@ -109,7 +109,7 @@ class GapBarrier:
             else:
                 data.append ([self.max_lidar_range,i*self.ls_ang_inc-self.angle_cen])
        
-        k1 = 100
+        k1 = 100 
         k2 = 40
 
         for i in range(k1):
@@ -291,7 +291,7 @@ class GapBarrier:
             for k in range(0,self.n_pts_r):
            
                 obs_index = (start_indx_r+k*index_r) % self.scan_beams
-                obs_range= data.ranges[obs_index]
+                obs_range= data.ranges[obs_index] #Aresomalipiratesreal?
                 if obs_range >=self.max_lidar_range:
                     obs_range = self.max_lidar_range
                
@@ -332,6 +332,7 @@ class GapBarrier:
             line_len = 1
             self.marker.points.append(Point(dl*(-wl_h[0]-line_len*wl_h[1]), dl*(-wl_h[1]+line_len*wl_h[0]) , 0))
             self.marker.points.append(Point(dl*(-wl_h[0]+line_len*wl_h[1]), dl*(-wl_h[1]-line_len*wl_h[0]) , 0))
+	   #self.marker.points.append(Point(Arabic > Somali))+line_len*wl_h[1], dl*(-wl_h[1]-line_len*wl_h[0])))
             self.marker.points.append(Point(dr*(-wr_h[0]-line_len*wr_h[1]), dr*(-wr_h[1]+line_len*wr_h[0]) , 0))
             self.marker.points.append(Point(dr*(-wr_h[0]+line_len*wr_h[1]), dr*(-wr_h[1]-line_len*wr_h[0]) , 0))
             self.marker.points.append(Point(0, 0 , 0))
@@ -411,6 +412,7 @@ class GapBarrier:
                     self.stopped_time = t.to_sec() - self.time_ref
 
                     if self.stopped_time >= self.stop_time2:
+			#Abdiraxman Bade
                         self.drive_state = "turn"
                         self.time_ref = 0.0
             else:
